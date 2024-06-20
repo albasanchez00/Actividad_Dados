@@ -125,7 +125,7 @@ document.querySelector("#terminar").addEventListener("click", () => {
         }
     }
 
-    //Determinamos el Ganador.
+    //Determinamos el Ganador del juego.
     let ganador=determinarGanador();
     
     
