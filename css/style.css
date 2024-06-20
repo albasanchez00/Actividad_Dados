@@ -6,13 +6,14 @@
 }
 
 body {
+    color: #fff;
     display: flex;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     height: 100%;
     /*Color fondo pagina */
-    background: linear-gradient(132deg, rgba(2, 0, 36, 1) 0%, rgba(6, 65, 103, 1) 15%, rgba(24, 167, 215, 1) 100%);
+    background: linear-gradient(90deg, rgba(6,65,103,1) 25%, rgba(21,146,187,1) 100%);
 }
 
 /* Section HTML */
@@ -22,7 +23,7 @@ body {
     background-color: #fff;
     width: 700px;
     height: auto;
-    border: 2px solid rgba(6, 65, 103, 1);
+    background: linear-gradient(90deg, rgba(10,116,184,0.7175245098039216) 25%, rgba(21,145,186,0.7063200280112045) 100%);
     margin: 20px 0;
 }
 
@@ -82,8 +83,6 @@ img {
 
 /* Puntuaciones */
 #puntuaciones {
-    border-top: 2px solid rgba(6, 65, 103, 1);
-    border-bottom: 2px solid rgba(6, 65, 103, 1);
     padding: 10px 0;
 }
 
@@ -91,7 +90,9 @@ img {
 /* Controles del Div donde está contenido */
 #controles {
     margin-top: 20px;
-    margin-bottom: 10px;
+    padding: 20px;
+    border-top: 2px solid rgba(6, 65, 103, 1);
+
 }
 
 
